@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "psi-tarefas",
+    "slug": "psi-tarefas",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "psi-tarefas"
+}
+
+{
+  "expo": {
+    "name": "psi-Tarefas",
+    "slug": "psi-Tarefas",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "icon": "src/assets/icon.png",
+    "splash": {
+      "image": "src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "bundleIdentifier": "com.psisoftware.psitarefas",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "psi.tarefas"
+    },
+    "web": {
+      "favicon": "src/assets/favicon.png"
+    }
+  }
+}
