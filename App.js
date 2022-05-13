@@ -6,7 +6,7 @@ console.disableYellowBox=true;
 
 import Login  from './src/components/login';
 import TaskList from './src/components/tasklist';
-import firebase from './src/firebase/config';
+import firebase from './src/services/Firebase';
 import Icon from 'react-native-vector-icons/Feather';
 
 export default function App() {
@@ -109,7 +109,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <View style={{justifyContent: 'center', alignItems: 'center'}}>
         <Image 
-          source={require('./src/assets/logo.jpg')} 
+          source={require('./assets/logo.jpg')}
           style={[styles.image]}
         />
         {user.length > 0 ? 

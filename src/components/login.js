@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Image, Text, TextInput, TouchableOpacity, StyleSheet, SafeAreaView  } from 'react-native';
-import firebase from '../firebase/config';
+import firebase from '../services/Firebase';
 
 export default function Login({changeUser, changeName}) {
   
@@ -53,7 +53,7 @@ export default function Login({changeUser, changeName}) {
   return (
     <SafeAreaView style={styles.container}>
       <Image 
-        source={require('../assets/logo.jpg')} 
+        source={require('../../assets/logo.jpg')} 
         style={styles.image}
       />
 
