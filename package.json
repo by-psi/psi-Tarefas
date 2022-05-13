@@ -1,4 +1,12 @@
 {
+  "name": "psi-tarefas",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
   "dependencies": {
     "expo": "^44.0.0",
     "expo-splash-screen": "~0.14.1",
@@ -17,13 +25,5 @@
   "devDependencies": {
     "@babel/core": "^7.12.9"
   },
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "version": "1.0.0",
-  "private": true,
-  "name": "psi-tarefas"
+  "private": true
 }

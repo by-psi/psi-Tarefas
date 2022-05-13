@@ -1,17 +1,5 @@
 {
   "expo": {
-    "name": "psi-tarefas",
-    "slug": "psi-tarefas",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  },
-  "name": "psi-tarefas"
-}
-
-{
-  "expo": {
     "name": "psi-Tarefas",
     "slug": "psi-Tarefas",
     "version": "1.0.0",
@@ -35,7 +23,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "src/assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
       "package": "psi.tarefas"
