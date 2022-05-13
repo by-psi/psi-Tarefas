@@ -7,4 +7,4 @@ App simples para Criar, Listar, Editar e Excluir Tarefas, baseado e adaptado do 
 <p>telefone: (31) 98410-7540 WhatsApp</p>
 <p>email: ezequiasmartins@gmail.com</p>
 <p>by <a href="https://ezequiasmartins.blogspot.com/" target="_blank">Ezequias Martins</a> ® 1999-2022 Direitos Reservados</p>
-<p><a href="https://ezequiasmartins.blogspot.com/" target="_blank"><img src=".temp/ssinatura.jpg"></a></p>
+<p><a href="https://ezequiasmartins.blogspot.com/" target="_blank"><img src=".temp/assinatura.jpg"></a></p>
